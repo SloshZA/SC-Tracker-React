@@ -25181,13 +25181,18 @@ var TestFeatures = function TestFeatures() {
   })))));
 };
 var _default = exports.default = TestFeatures;
-},{"react":"node_modules/react/index.js","react-select":"node_modules/react-select/dist/react-select.esm.js","./TestFeatures.css":"TestFeatures.css"}],"script.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-select":"node_modules/react-select/dist/react-select.esm.js","./TestFeatures.css":"TestFeatures.css"}],"styles.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"script.js":[function(require,module,exports) {
 "use strict";
 
 var _react = _interopRequireWildcard(require("react"));
 var _client = _interopRequireDefault(require("react-dom/client"));
 var _reactSelect = _interopRequireDefault(require("react-select"));
 var _TestFeatures = _interopRequireDefault(require("./TestFeatures"));
+require("./styles.css");
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { default: e }; }
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function (e) { return e ? t : r; })(e); }
 function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != typeof e && "function" != typeof e) return { default: e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n.default = e, t && t.set(e, n), n; }
@@ -26373,7 +26378,7 @@ var App = function App() {
 };
 var root = _client.default.createRoot(document.getElementById('root'));
 root.render(/*#__PURE__*/_react.default.createElement(App, null));
-},{"react":"node_modules/react/index.js","react-dom/client":"node_modules/react-dom/client.js","react-select":"node_modules/react-select/dist/react-select.esm.js","./TestFeatures":"TestFeatures.js"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom/client":"node_modules/react-dom/client.js","react-select":"node_modules/react-select/dist/react-select.esm.js","./TestFeatures":"TestFeatures.js","./styles.css":"styles.css"}],"../../../../AppData/Roaming/npm/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
