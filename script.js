@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 import Select from 'react-select';
-import TestFeatures from './TestFeatures';
+import TestFeatures from './components/TestFeatures';
 import './styles.css';
 console.log('Script is running');
 //Presets

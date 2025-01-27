@@ -2,8 +2,9 @@
   "name": "sc-cargo-tracker-react",
   "version": "1.0.0",
   "homepage": "https://sloshza.github.io/SC-Tracker-React/",
+  "main": "script.js",
   "scripts": {
-    "start": "npx parcel index.html",
+    "start": "parcel index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "parcel build index.html",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "parcel": "^2.0.0",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "process": "^0.11.10"
   }
 }
